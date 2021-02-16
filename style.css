@@ -9,7 +9,7 @@ body{
   font-family: montserrat;
 }
 nav{
-  background: #0082e6;
+  background: #dbdbdb;
   height: 80px;
   width: 100%;
 }
@@ -28,7 +28,7 @@ nav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
-}
+}	
 nav ul li a{
   color: white;
   font-size: 17px;
