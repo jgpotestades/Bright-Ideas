@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: montserrat;
+      font-family: montserrat;
 }
 
 
@@ -172,12 +172,54 @@ a.active,a:hover{
   padding-bottom: 10px;
 }
 
+
 .banner .right-section{
   max-width: 50%;
 }
 
 
+.banner .right-section .left-column{ 
+  width: 16.67%;
+}
 
+
+.banner .right-section .middle-column{ 
+  width: 16.67%;
+}
+
+
+.banner .right-section .right-column{
+  width: 16.67%;
+}
+
+.banner .right-section .left-column span{
+  height: 100px;
+  width: 100px;
+  background-color: #D3E7F6;
+  border-radius: 50%;
+  display: inline-flex;
+  position: relative;
+}
+
+.banner .right-section .middle-column span{
+  height: 100px;
+  width: 100px;
+  background-color: #2082CE;
+  border-radius: 50%;
+  display: inline-flex;
+  position: relative;
+
+}
+
+.banner .right-section .right-column span{
+  height: 100px;
+  width: 100px;
+  background-color: #084C80;
+  border-radius: 50%;
+  display: inline-flex;
+  position: relative;
+
+}
 
 
 /******BANNER CSS END*******/
