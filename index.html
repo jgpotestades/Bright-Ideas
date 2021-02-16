@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 
@@ -17,15 +17,15 @@
 			<label class="logo">This is the Nav</label>
 			
 			<ul>
-				<li>
+				<li class="nav-item">
 					<a href="#">Item 1</a>
-					<div class="dropdown">
-						<a href="#" class="bar item">Lorem ipsum dolor sit amet</a>
-						<a href="#" class="bar item">Lorem ipsum dolor sit amet</a>					
-						<a href="#" class="bar item">Lorem ipsum dolor sit amet</a>					
-						<a href="#" class="bar item">Lorem ipsum dolor sit amet</a>										
-					</div>
-				</li>
+					<ul class="dropdown-menu" data-toggle="dropdown">
+						<li><a class="dropdown-item" href="#">Lorem ipsum dolor sit amet</a></li>
+						<li><a class="dropdown-item" href="#">Lorem ipsum dolor sit amet</a></li>
+						<li><a class="dropdown-item" href="#">Lorem ipsum dolor sit amet</a></li>
+						<li><a class="dropdown-item" href="#">Lorem ipsum dolor sit amet</a></li>
+					  </ul>
+				</li class="nav-item">
 				<li><a href="#">Item 2</a></li>
 			</ul>
     </nav>
@@ -33,18 +33,11 @@
 <section>
 
 
-
-
 </section>
 
 <!--Javascript libraries-->
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </body>
-
-
-
-
 </head>
 </html>

@@ -4,8 +4,6 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  font-family: montserrat;
-
 }
 body{
   font-family: montserrat;
@@ -44,9 +42,9 @@ a.active,a:hover{
 }
 .checkbtn{
   font-size: 30px;
-  color: #ffffff;
+  color: #084C80;
   float: right;
-  line-height: 80px;
+  line-height: 50px;
   margin-right: 40px;
   cursor: pointer;
   display: none;
@@ -54,6 +52,34 @@ a.active,a:hover{
 #check{
   display: none;
 }
+
+@media all and (min-width: 992px) {
+ .dropdown-menu{
+   display: none;
+  }
+
+ .navbar .nav-item:hover .nav-link{
+   background-color: #D3E7F6;
+   font-weight: bold;
+  }
+ 
+ .nav-item:hover .dropdown-menu{
+   display:inline-block;
+   margin: 50px -200px;
+   vertical-align: middle;
+   float:left;
+   width:245px; /* adjust */
+   height:220px; /* adjust */
+   background-color: #D3E7F6;
+   text-align: center;
+  }
+
+ .nav-item .dropdown-menu{
+   margin-top:0;
+  }
+  
+ }
+
 @media (max-width: 952px){
   label.logo{
     font-size: 30px;
@@ -94,4 +120,5 @@ a.active,a:hover{
   }
 }
 section{
+  
 }
