@@ -54,20 +54,20 @@ a.active,a:hover{
 }
 
 @media all and (min-width: 992px) {
- .dropdown-menu{
-   display: none;
-  }
+.dropdown-menu{
+  display: none;
+}
  
- .nav-item:hover .dropdown-menu{
-   display:inline-block;
-   margin: 50px -200px;
-   vertical-align: middle;
-   float:left;
-   width:245px; /* adjust */
-   height:220px; /* adjust */
-   background-color: #D3E7F6;
-   text-align: center;
-  }
+.nav-item:hover .dropdown-menu{
+  display:inline-block;
+  margin: 50px -200px;
+  vertical-align: middle;
+  float:left;
+  width:245px; /* adjust */
+  height:220px; /* adjust */
+  background-color: #D3E7F6;
+  text-align: center;
+}
 
  .nav-item .dropdown-menu{
    margin-top:0;
