@@ -14,7 +14,7 @@ nav{
   width: 100%;
 }
 label.logo{
-  color: white;
+  color: #084C80;
   font-size: 35px;
   line-height: 80px;
   padding: 0 100px;
@@ -30,7 +30,7 @@ nav ul li{
   margin: 0 5px;
 }	
 nav ul li a{
-  color: white;
+  color: #084C80;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
@@ -42,7 +42,7 @@ a.active,a:hover{
 }
 .checkbtn{
   font-size: 30px;
-  color: white;
+  color: #084C80;
   float: right;
   line-height: 80px;
   margin-right: 40px;
