@@ -129,4 +129,42 @@ a.active,a:hover{
 
 /******BANNER CSS*******/
 
+.banner .left-section{
+  max-width: 50%;
+}
 
+.banner .left-section .title h1{
+  font-size: 50px;
+  color:#084C80;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+.banner .left-section .title span{
+  font-size: 50px;
+  color:#084C80;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.banner .left-section .content{
+  margin-top: 5%;
+}
+
+.banner .left-section .content span{
+  font-size: 50px;
+  color:#084C80;
+  text-align: center;
+  padding-left: 10%;
+  padding-bottom: 10px;
+}
+
+.banner .left-section .content p{
+  font-size: 16px;
+  color:#084C80;
+  text-align: left;
+  padding-left: 10%;
+  padding-bottom: 10px;
+}
