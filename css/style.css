@@ -12,7 +12,7 @@ body{
 }
 
 
-/*******HEADER CSS********/
+/*******HEADER CSS START********/
 nav{
   background: #dbdbdb;
   height: 50px;
@@ -126,8 +126,11 @@ a.active,a:hover{
     left: 0;
   }
 }
+/*******HEADER CSS END********/
 
-/******BANNER CSS*******/
+
+
+/******BANNER CSS START*******/
 
 .banner .left-section{
   max-width: 50%;
@@ -168,3 +171,29 @@ a.active,a:hover{
   padding-left: 10%;
   padding-bottom: 10px;
 }
+
+.banner .right-section{
+  max-width: 50%;
+}
+
+
+
+
+
+/******BANNER CSS END*******/
+
+
+/******HERO CSS START*******/
+/******HERO CSS END*******/
+
+
+
+
+/******REGISTRATION CSS START*******/
+/******REGISTRATION CSS END*******/
+
+
+
+/******CARD CSS START*******/
+/******CARD CSS END*******/
+
