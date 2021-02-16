@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -8,6 +10,9 @@
 body{
   font-family: montserrat;
 }
+
+
+/*******HEADER CSS********/
 nav{
   background: #dbdbdb;
   height: 50px;
@@ -19,6 +24,12 @@ label.logo{
   line-height: 50px;
   padding: 50px ;
   font-weight: bold;
+}
+label a{
+  color:#084C80;
+}
+label a:hover{
+  background-color: #dbdbdb;
 }
 nav ul{
   float: right;
@@ -63,7 +74,7 @@ a.active,a:hover{
   margin: 50px -200px;
   vertical-align: middle;
   float:left;
-  width:245px; /* adjust */
+  width:280px; /* adjust */
   height:220px; /* adjust */
   background-color: #D3E7F6;
   text-align: center;
@@ -72,8 +83,6 @@ a.active,a:hover{
  .nav-item .dropdown-menu{
    margin-top:0;
   }
-  
-  
  }
 
 @media (max-width: 952px){
@@ -117,6 +126,7 @@ a.active,a:hover{
     left: 0;
   }
 }
-section{
-  
-}
+
+/******BANNER CSS*******/
+
+
