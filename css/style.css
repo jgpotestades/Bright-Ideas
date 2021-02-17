@@ -203,6 +203,10 @@ nav ul li a{
   padding-bottom: 10px;
 }
 
+.col-sm-2 {
+  margin: 0%;
+}
+
 .circle-1{
   height: 115px;
   width: 115px;
@@ -210,7 +214,8 @@ nav ul li a{
   border-radius: 50%;
   display: inline-flex;
   position: relative;
-  margin-top: 200%;
+  margin-top: 180%;
+  margin-left: 20%;
 }
 
 .circle-2{
@@ -230,10 +235,34 @@ nav ul li a{
   border-radius: 50%;
   display: inline-flex;
   position: relative;
-  margin-top: 70%;
+  margin-top: 90%;
+  padding-right: 10%;
+
 }
 
+.circle-1:hover{
+  height: 150px;
+  width: 150px;
+  background-color: #D3E7F6;
+  border-radius: 50%;
+  transition-delay: 0.5ms;
+}
 
+.circle-2:hover{
+  height: 150px;
+  width: 150px;
+  background-color: #2082CE;
+  border-radius: 50%;
+  transition-delay: 0.5ms;
+}
+
+.circle-3:hover{
+  height: 150px;
+  width: 150px;
+  background-color: #084C80;
+  border-radius: 50%;
+  transition-delay: 0.5ms;
+}
 /******BANNER CSS END*******/
 
 
