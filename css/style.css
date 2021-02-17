@@ -248,12 +248,50 @@ nav ul li a{
 .circle-1:hover{background-color: #D3E7F6;}
 .circle-2:hover{background-color: #2082CE;}
 .circle-3:hover{background-color: #084C80;}
-
-}
 /******BANNER CSS END*******/
 
 
 /******HERO CSS START*******/
+.hero {
+  background-color: #D3E7F6;
+  height: 40%;
+  width: 100%;
+  position:absolute;
+  margin-top: 5%;
+}
+
+.hero .title h1{
+  font-size: 50px;
+  color:#084C80;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 2%;
+  margin-left: -5%;
+  margin-bottom: 2%;
+}
+
+.hero .row .dropdown{
+}
+
+.hero .col-sm-6{
+  align-items: center;
+}
+
+
+
+
+.hero .row .dropdown .btn{
+  position:relative;
+  display: inline-block;
+  font-family: montserrat;
+  background-color: white;
+  align-items: center;
+  margin: 10px;
+  text-size-adjust: 16px;
+  border-radius: 5px;
+  border: #3D3D3D 1px;
+}
+
 /******HERO CSS END*******/
 
 
