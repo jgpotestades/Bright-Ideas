@@ -153,15 +153,13 @@ nav ul li a{
   }
   a:hover,a.active{
     background: none;
-    color: #0082e6;
+    color: #2082CE;
   }
   #check:checked ~ ul{
     left: 0;
   }
 }
 /*******HEADER CSS END********/
-
-
 
 
 
@@ -210,22 +208,22 @@ nav ul li a{
 .circle-1{
   height: 115px;
   width: 115px;
-  background-color: #D3E7F6;
   border-radius: 50%;
   display: inline-flex;
   position: relative;
   margin-top: 180%;
   margin-left: 20%;
+  background-color: #D3E7F6;
 }
 
 .circle-2{
   height: 115px;
   width: 115px;
-  background-color: #2082CE;
   border-radius: 50%;
   display: inline-flex;
   position: relative;
   margin-top: 140%;
+  background-color: #2082CE;
 }
 
 .circle-3{
@@ -240,28 +238,17 @@ nav ul li a{
 
 }
 
-.circle-1:hover{
+.circle-1:hover, .circle-2:hover, .circle-3:hover{
   height: 150px;
   width: 150px;
-  background-color: #D3E7F6;
   border-radius: 50%;
   transition-delay: 0.5ms;
 }
 
-.circle-2:hover{
-  height: 150px;
-  width: 150px;
-  background-color: #2082CE;
-  border-radius: 50%;
-  transition-delay: 0.5ms;
-}
+.circle-1:hover{background-color: #D3E7F6;}
+.circle-2:hover{background-color: #2082CE;}
+.circle-3:hover{background-color: #084C80;}
 
-.circle-3:hover{
-  height: 150px;
-  width: 150px;
-  background-color: #084C80;
-  border-radius: 50%;
-  transition-delay: 0.5ms;
 }
 /******BANNER CSS END*******/
 
