@@ -1,8 +1,16 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Ideas</title>
+
+	<!--CSS Library-->
     <link rel="stylesheet" href="css/style.css">
+
+	<!--Bootstrap Library-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	
 </head>
 
 
@@ -21,15 +29,26 @@
 
 	<ul>
 		<li class="nav-item">
-			<a href="#">Item 1</a>
-			<ul class="dropdown-menu" data-toggle="dropdown">
-				<li><a class="dropdown-item" href="./content/design2.html">Lorem ipsum dolor sit amet</a></li>
-				<li><a class="dropdown-item" href="#">Lorem ipsum dolor sit amet</a></li>
-				<li><a class="dropdown-item" href="#">Lorem ipsum dolor sit amet</a></li>
-				<li><a class="dropdown-item" href="#">Lorem ipsum dolor sit amet</a></li>
-			  </ul>
-		</li class="nav-item">
-		<li><a href="#">Item 2</a></li>
+			<div class="dropdown">
+				<button class="dropbtn">Item 1</button>
+				<div class="dropdown-content">
+				  <a href="/content/design2.html">Lorem ipsum dolor sit amet</a>
+				  <a href="#">Lorem ipsum dolor sit amet</a>
+				  <a href="#">Lorem ipsum dolor sit amet</a>
+				</div>
+			  </div>
+		</li>
+
+		<li class="nav-item">
+			<div class="dropdown">
+				<button class="dropbtn">Item 2</button>
+				<div class="dropdown-content">
+				  <a href="#">Lorem ipsum dolor sit amet</a>
+				  <a href="#">Lorem ipsum dolor sit amet</a>
+				  <a href="#">Lorem ipsum dolor sit amet</a>
+				</div>
+			  </div>
+		</li>
 	</ul>
 </nav>
 <!--header end-->
@@ -37,27 +56,30 @@
 
 <!--banner start-->
 <section class="banner">
-	<div class="left-section">
-		<div class="title">
-			<h1>Welcome!</h1>
-			<span>This is a test</span>
-		</div>
-		<div class="content">
-			<span>No Circles on Hover yet</span>
-			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tompor invidunt ut labore et dolore magna aliquyan erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd</p>
-		</div>	
-	</div>
+	<div class="row">
+		<div class="col-sm-6">
+			<div class="title">
+				<h1>Welcome!</h1>
+				<span>This is a test</span>
+			</div>
 
-	<div class="right-section">
-		<div class="left-column">
-			<span class="circles"></span>
+			<div class="content">
+				<span>No Circles on Hover yet.</span>
+			
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tompor invidunt ut labore et dolore magna aliquyan erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd.</p>
+			</div>
 		</div>
 
-		<div class="middle-column">
-			<span class="circles"></span>
+		<div class="col-sm-2" data-hover="Lightest circle is on hover.">
+			<span class="circle-1"></span>
 		</div>
-		<div class="right-column">
-			<span class="circles"></span>
+
+		<div class="col-sm-2" data-hover="Medium circle is on hover.">
+			<span class="circle-2"></span>
+		</div>
+
+		<div class="col-sm-2" data-hover="Heaviest circle is on hover.">
+			<span class="circle-3"></span>
 		</div>
 	</div>
 </section>
@@ -108,6 +130,11 @@
 <!--Javascript libraries-->
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
+<!--Bootstrap Templates-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
 </body>
-</head>
 </html>
